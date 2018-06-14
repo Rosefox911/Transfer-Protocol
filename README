@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Project 3 - RCP Protocol (basically) (Team lopezDelgado)
+-------------------------------------------------------------------------------
+Version 1.0
+Release date: 4/24/2013
+-------------------------------------------------------------------------------
+Project state:
+Stable (ish)
+-------------------------------------------------------------------------------
+Credits
+	Luis Lopez (lopez-archetti.l@husky.neu.edu)
+	Jorge Delgado (delgado.j@husky.neu.edu)
+-------------------------------------------------------------------------------
+Project description
+A simple TCP Protocol
+-------------------------------------------------------------------------------
+Documentation
+Much harder than the DNS one, but still interesting. Checking for consistency between send and reeceived was an issue specially in an unstable network. 
+However, once we figured out we could actually see what was being send and received it turned out nicely.
+We added a few helper functions to keep the code shorter because we noticed it was getting pretty long. The main issue we ran into was timing. 
+This project wasn't super hard but the final and other deadlines made it difficult to work on.
+Passing the performance tests was also a problem. We fixed one of the issues by lowering the timeout. Worked out nicely. 
+Netsim is also a very useful tool, it was pretty awesome mesing with it to see what it could do. Overall, this was the second hardest project after the file system. 
+File system wins simply because of how hard it was to test stuff. 
+I used an array of structures for this. I know I coudl have used a linked list but I am not a huge fan of pointers (sort of screwed if I want to do C or C++). 
+Added a few helper functions primarily to find empty slot and to add stuff into the array of structures. Not much else to it really, the in text comments explain what everthing else does.
+-------------------------------------------------------------------------------
+Additional Notes
+
